@@ -1,0 +1,1 @@
+import sequelizeSetup from './sequelize'
