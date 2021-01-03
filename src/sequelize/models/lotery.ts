@@ -1,10 +1,11 @@
-import { Table, Column, Model, HasMany, IsUUID } from 'sequelize-typescript';
+import { Table, Column, Model, IsUUID, PrimaryKey } from 'sequelize-typescript';
 
-@Table({ tableName: "lottery" })
+@Table({ tableName: "lotteryinfo" })
 export default class Lotery extends Model<Lotery> {
 
-    @Column
     @IsUUID(4)
+    @PrimaryKey
+    @Column
     id: string;
 
     @Column

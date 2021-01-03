@@ -4,8 +4,6 @@ const sequelize = new Sequelize({
     dialect: 'postgres',
     username: 'sm',
     password: '',
-    models: [__dirname + '/src/sequelize/models'],
+    models: [__dirname + '/models'],
 });
-export default (app: { Sequelize: Sequelize; }) => {
-    app.Sequelize = sequelize;
-}
+export default () => sequelize;

@@ -21,10 +21,12 @@
   "dependencies": {
     "@types/bluebird": "^3.5.33",
     "@types/validator": "^13.1.2",
+    "global": "^4.4.0",
     "pg": "^8.5.1",
     "pg-hstore": "^2.3.3",
     "reflect-metadata": "^0.1.13",
-    "sequelize": "^6.3.5",
+    "sequelize": "5.22.3",
+    "sequelize-cli": "^6.2.0",
     "sequelize-typescript": "^1.1.0"
   }
 }
