@@ -1,0 +1,12 @@
+{
+    "development": {
+        "username": "sm",
+        "password": null,
+        "database": "lotery",
+        "host": "127.0.0.1",
+        "port": 5432,
+        "dialect": "postgres",
+        "migrationStorageTableName": "_migrations",
+        "logging": "console.log"
+    }
+}
