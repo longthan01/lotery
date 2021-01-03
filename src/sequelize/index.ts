@@ -6,4 +6,4 @@ const sequelize = new Sequelize({
     password: '',
     models: [__dirname + '/models'],
 });
-export default () => sequelize;
+export default sequelize;
